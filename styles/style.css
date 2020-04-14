@@ -1,0 +1,46 @@
+/**********************************************
+*** GENERAL
+**********************************************/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(/img/back.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+    font-weight: 300;
+    position: relative;
+    height: 100vh;
+    color: #555;
+}
+
+.wrapper {
+    background-color: #fff;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    width: 20%;
+}
+
+.wapper {
+    background-color: #563;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    width: 20%;
+    transform: translateX(30%, 20%);
+    top: -80%;
+}
+
+input {
+    margin: 8px 15px;
+    color: lawngreen;
+}
+
+#submit {
+    margin-top: 3px;
+    margin-bottom: 5px;
+    margin-left: 35px;
+    margin-right: 14px;
+}
